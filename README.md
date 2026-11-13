@@ -1,4 +1,11 @@
 # Neon Parking Manager (Hệ Thống Quản Lý Bãi Giữ Xe Thông Minh)
+👨‍💻 Tác giả
+
+Trương Nguyễn Gia Bảo-Lớp DH23TIN02
+
+Sinh viên Công nghệ thông tin – Đại học Nam Cần Thơ.
+
+Dự án được thực hiện nhằm vận dụng kiến thức Python vào một bài toán quản lý thực tế, đồng thời rèn luyện kỹ năng thiết kế phần mềm, tổ chức mã nguồn và làm việc với cơ sở dữ liệu.
 
 Ứng dụng quản lý bãi đỗ xe thông minh dành cho Windows Desktop với giao diện **Light Premium Automotive Management** (kết hợp màu sắc công nghệ Primary Teal `#087F83`, điểm nhấn Champagne Gold `#C5A46D` trên nền xám nhạt `#F3F6F8` và card trắng `#FFFFFF`), được phát triển bằng **Python OOP**, **CustomTkinter** và hệ quản trị cơ sở dữ liệu **MySQL**.
 
