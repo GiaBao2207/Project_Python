@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="npmTealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B4BC"/>
+      <stop offset="100%" stop-color="#008C91"/>
+    </linearGradient>
+    <linearGradient id="npmGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0C392"/>
+      <stop offset="100%" stop-color="#C5A46D"/>
+    </linearGradient>
+  </defs>
+  <!-- Trụ trái chữ N (Left Strut - Vạch phân ranh giới ô đỗ ngầm) -->
+  <polygon points="120,120 185,120 135,392 70,392" fill="#006B70"/>
+  
+  <!-- Trụ phải chữ N (Right Strut) -->
+  <polygon points="377,120 442,120 392,392 327,392" fill="url(#npmTealGrad)"/>
+  
+  <!-- Dải chéo khí động học liên kết chữ N (Dynamic Aero Blade) -->
+  <polygon points="185,120 392,345 327,392 120,167" fill="#008C91"/>
+  
+  <!-- Vạch cắt âm bản mạ Champagne Gold (Negative Space Slot Divider) -->
+  <polygon points="215,190 325,305 295,335 185,220" fill="url(#npmGoldGrad)"/>
+  
+  <!-- Vệt phản xạ ánh sáng kim loại công nghiệp -->
+  <polygon points="120,120 185,120 175,135 110,135" fill="#E0C392"/>
+</svg>

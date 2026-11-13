@@ -1,0 +1,15 @@
+# Thư viện giao diện Windows Desktop hiện đại
+customtkinter>=5.2.0
+pillow>=10.0.0
+
+# Kết nối cơ sở dữ liệu MySQL
+mysql-connector-python>=8.3.0
+
+# Mã hóa băm mật khẩu chuẩn Argon2id
+argon2-cffi>=23.1.0
+
+# Quản lý biến môi trường
+python-dotenv>=1.0.0
+
+# Trực quan hóa dữ liệu biểu đồ nhúng Tkinter
+matplotlib>=3.7.0

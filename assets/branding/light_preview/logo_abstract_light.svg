@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Teal Gradient: Sâu lắng, công nghệ cao, sang trọng -->
+    <linearGradient id="tealGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A969B"/>
+      <stop offset="50%" stop-color="#087F83"/>
+      <stop offset="100%" stop-color="#065D60"/>
+    </linearGradient>
+
+    <!-- Champagne Gold Gradient: Sang trọng, chuẩn mực công nghiệp -->
+    <linearGradient id="goldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4B680"/>
+      <stop offset="100%" stop-color="#C5A46D"/>
+    </linearGradient>
+
+    <!-- Đổ bóng nhẹ tinh xảo dưới chân các vệt chuyển động -->
+    <filter id="subtleDropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#162A35" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#subtleDropShadow)">
+    <!-- Blade 1 (Upper Dynamic Roofline): Mui lướt gió khí động học -->
+    <polygon points="140,160 330,160 410,230 365,245 305,195 155,195" fill="url(#tealGradLight)"/>
+
+    <!-- Blade 2 (Mid Body Contour & Parking Bay): Vạch phân làn đỗ xe trung tâm -->
+    <polygon points="100,245 355,245 425,305 380,320 330,280 120,280" fill="#087F83"/>
+
+    <!-- Blade 3 (Ground Guidance Base): Làn điều hướng tiếp cận mặt sàn -->
+    <polygon points="140,330 320,330 365,375 325,385 295,360 160,360" fill="#065D60"/>
+
+    <!-- Gold Aero Accent: Điểm nhấn mũi lướt gió cắt mạ Champagne Gold -->
+    <polygon points="365,245 410,230 425,305 380,280" fill="url(#goldGradLight)"/>
+
+    <!-- Smart Guidance Diamond: Điểm laser định vị thông minh của vị trí đỗ -->
+    <polygon points="440,265 455,280 440,295 425,280" fill="#C5A46D"/>
+  </g>
+</svg>

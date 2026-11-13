@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tealGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B4BC"/>
+      <stop offset="100%" stop-color="#006B70"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0C392"/>
+      <stop offset="100%" stop-color="#C5A46D"/>
+    </linearGradient>
+  </defs>
+  <!-- Vành chuyển động đa giác phía trên (Upper Flow Chevron) -->
+  <polygon points="256,90 410,180 410,265 360,235 360,200 256,140 185,180 185,135" fill="url(#tealGrad2)"/>
+  
+  <!-- Vành chuyển động đối xứng phía dưới (Lower Flow Chevron) -->
+  <polygon points="256,422 102,332 102,247 152,277 152,312 256,372 327,332 327,377" fill="#008C91"/>
+  
+  <!-- Khối ô đỗ xe trung tâm Negative Space & Prism (Central Vehicle Dock) -->
+  <polygon points="256,180 330,256 256,332 182,256" fill="#131D25" stroke="#344552" stroke-width="4"/>
+  
+  <!-- Lõi điều phối mạ vàng Champagne Gold (Core Navigation Vector) -->
+  <polygon points="256,195 305,245 256,295 207,245" fill="url(#goldGrad2)"/>
+  
+  <!-- Vệt định hướng xe vào bãi (Entry Slot) -->
+  <polygon points="256,230 275,256 256,282 237,256" fill="#0A0F14"/>
+</svg>

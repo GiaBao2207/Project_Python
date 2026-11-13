@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tealGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A969B"/>
+      <stop offset="100%" stop-color="#087F83"/>
+    </linearGradient>
+    <linearGradient id="goldGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0C392"/>
+      <stop offset="100%" stop-color="#C5A46D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Nền tối chuẩn Industrial Luxury #0A0F14 bo góc -->
+  <rect width="512" height="512" rx="64" fill="#0A0F14"/>
+
+  <!-- Blade 1 (Upper Dynamic Roofline) -->
+  <polygon points="140,160 330,160 410,230 365,245 305,195 155,195" fill="url(#tealGradDark)"/>
+
+  <!-- Blade 2 (Mid Body Contour & Parking Bay) -->
+  <polygon points="100,245 355,245 425,305 380,320 330,280 120,280" fill="#0A969B"/>
+
+  <!-- Blade 3 (Ground Guidance Base) -->
+  <polygon points="140,330 320,330 365,375 325,385 295,360 160,360" fill="#087F83"/>
+
+  <!-- Gold Aero Accent -->
+  <polygon points="365,245 410,230 425,305 380,280" fill="url(#goldGradDark)"/>
+
+  <!-- Smart Guidance Diamond -->
+  <polygon points="440,265 455,280 440,295 425,280" fill="#E0C392"/>
+</svg>

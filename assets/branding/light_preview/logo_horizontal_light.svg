@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" width="720" height="180">
+  <defs>
+    <linearGradient id="tealHorizLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A969B"/>
+      <stop offset="50%" stop-color="#087F83"/>
+      <stop offset="100%" stop-color="#065D60"/>
+    </linearGradient>
+    <linearGradient id="goldHorizLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4B680"/>
+      <stop offset="100%" stop-color="#C5A46D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ICON ABSTRACT AUTOMOTIVE (Kích thước 130x130 đặt bên trái) -->
+  <g transform="translate(15, 10) scale(0.31)">
+    <!-- Blade 1 -->
+    <polygon points="140,160 330,160 410,230 365,245 305,195 155,195" fill="url(#tealHorizLight)"/>
+    <!-- Blade 2 -->
+    <polygon points="100,245 355,245 425,305 380,320 330,280 120,280" fill="#087F83"/>
+    <!-- Blade 3 -->
+    <polygon points="140,330 320,330 365,375 325,385 295,360 160,360" fill="#065D60"/>
+    <!-- Gold Accent -->
+    <polygon points="365,245 410,230 425,305 380,280" fill="url(#goldHorizLight)"/>
+    <!-- Laser Diamond -->
+    <polygon points="440,265 455,280 440,295 425,280" fill="#C5A46D"/>
+  </g>
+
+  <!-- ĐƯỜNG PHÂN CÁCH TINH TẾ (Subtle Divider) -->
+  <line x1="165" y1="35" x2="165" y2="145" stroke="#D8E1E6" stroke-width="2"/>
+
+  <!-- TYPOGRAPHY THƯƠNG HIỆU -->
+  <!-- Tên chính: NEON PARKING -->
+  <text x="195" y="86" font-family="Segoe UI, -apple-system, sans-serif" font-size="40" font-weight="800" fill="#162A35" letter-spacing="3">NEON PARKING</text>
+
+  <!-- Phụ đề: SMART MANAGEMENT SYSTEM -->
+  <text x="198" y="124" font-family="Segoe UI, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#C5A46D" letter-spacing="6">SMART MANAGEMENT SYSTEM</text>
+</svg>

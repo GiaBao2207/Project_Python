@@ -1,0 +1,45 @@
+{
+    "so_ve_tiep_theo": 5,
+    "danh_sach_ve": [
+        {
+            "ma_ve": "VE0001",
+            "bien_so": "60A-12345",
+            "chu_xe": "GiaBao",
+            "loai_xe": "OTo",
+            "gio_vao": "2026-10-10T14:14:24.726461",
+            "gio_ra": "2026-10-10T14:35:14.597569",
+            "phi_gui_xe": 20000,
+            "trang_thai": "Da thanh toan"
+        },
+        {
+            "ma_ve": "VE0002",
+            "bien_so": "60B-12345",
+            "chu_xe": "Bao Gia",
+            "loai_xe": "XeMay",
+            "gio_vao": "2026-10-10T14:14:59.516460",
+            "gio_ra": null,
+            "phi_gui_xe": 0,
+            "trang_thai": "Dang gui"
+        },
+        {
+            "ma_ve": "VE0003",
+            "bien_so": "56B-12345",
+            "chu_xe": "Gia B",
+            "loai_xe": "XeMay",
+            "gio_vao": "2026-10-10T14:18:09.398823",
+            "gio_ra": null,
+            "phi_gui_xe": 0,
+            "trang_thai": "Dang gui"
+        },
+        {
+            "ma_ve": "VE0004",
+            "bien_so": "40A-12345",
+            "chu_xe": "Bao D",
+            "loai_xe": "OTo",
+            "gio_vao": "2026-10-10T14:31:56.751987",
+            "gio_ra": null,
+            "phi_gui_xe": 0,
+            "trang_thai": "Dang gui"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tealGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B4BC"/>
+      <stop offset="100%" stop-color="#006B70"/>
+    </linearGradient>
+    <linearGradient id="goldGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0C392"/>
+      <stop offset="100%" stop-color="#C5A46D"/>
+    </linearGradient>
+  </defs>
+  <!-- Blade 1: Mui xe & Khí động học nóc (Roofline) -->
+  <polygon points="140,165 330,165 410,235 365,250 305,200 155,200" fill="url(#tealGrad1)"/>
+  
+  <!-- Blade 2: Thân xe & Vạch phân làn chính (Mid Contour & Main Bay) -->
+  <polygon points="100,250 355,250 425,310 380,325 330,285 120,285" fill="#008C91"/>
+  
+  <!-- Blade 3: Chân đế sàn đỗ & Làn dẫn đường (Ground Guidance Slot) -->
+  <polygon points="140,335 320,335 365,380 325,390 295,365 160,365" fill="#006B70"/>
+  
+  <!-- Accent Mũi xe mạ Champagne Gold (Aero Nose Cut) -->
+  <polygon points="365,250 410,235 425,310 380,285" fill="url(#goldGrad1)"/>
+  
+  <!-- Điểm laser định vị thông minh (Smart Docking Laser Point) -->
+  <polygon points="440,270 455,285 440,300 425,285" fill="#E0C392"/>
+</svg>
